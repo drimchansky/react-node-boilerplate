@@ -3,7 +3,7 @@
   "scripts": {
     "env": "cat .env.example > .env",
     "dev-serve": "nodemon dist/index.js",
-    "dev-watch": "tsc -w",
+    "dev-watch": "tsc -w --preserveWatchOutput",
     "dev": "concurrently --kill-others \"npm run dev-watch\" \"npm run dev-serve\"",
     "build": "tsc",
     "start": "npx pm2 start .pm2.json"

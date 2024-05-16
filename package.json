@@ -1,0 +1,14 @@
+{
+  "name": "demo-boilerplate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm run -r dev",
+    "build": "pnpm run -r build",
+    "start": "pnpm run -r start"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ]
+}
