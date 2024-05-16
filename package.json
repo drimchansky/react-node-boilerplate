@@ -5,10 +5,31 @@
   "scripts": {
     "dev": "pnpm run -r dev",
     "build": "pnpm run -r build",
-    "start": "pnpm run -r start"
+    "start": "pnpm run -r start",
+    "format": "pnpm run -r --include-workspace-root /^format:/",
+    "format:prettier": "prettier --write .",
+    "format:eslint": "eslint --fix .",
+    "test:lint": "eslint ."
   },
   "workspaces": [
     "server",
     "client"
-  ]
+  ],
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-perfectionist": "^2.10.0",
+    "prettier": "^3.2.5",
+    "typescript-eslint": "^7.9.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowAny": [
+        "eslint"
+      ]
+    }
+  }
 }
