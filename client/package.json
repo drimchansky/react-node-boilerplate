@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nanostores/react": "^0.7.2",
     "@tanstack/react-router": "^1.32.13",
     "@tanstack/router-devtools": "^1.32.13",
     "@tanstack/router-vite-plugin": "^1.32.10",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
+    "nanostores": "^0.10.3",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

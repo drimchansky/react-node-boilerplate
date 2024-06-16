@@ -6,8 +6,8 @@ export const Header = () => {
       <Link className="[&.active]:font-bold" to="/">
         Home
       </Link>
-      <Link className="[&.active]:font-bold" to="/counter">
-        Counter
+      <Link className="[&.active]:font-bold" to="/about">
+        About
       </Link>
     </div>
   )
