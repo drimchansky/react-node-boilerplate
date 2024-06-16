@@ -23,6 +23,7 @@
     "eslint-define-config": "^2.1.0",
     "eslint-plugin-perfectionist": "^2.10.0",
     "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.6.4",
     "typescript-eslint": "^7.9.0"
   },
   "pnpm": {
