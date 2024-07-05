@@ -16,15 +16,15 @@
     "client"
   ],
   "devDependencies": {
-    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/eslintrc": "^3.1.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-define-config": "^2.1.0",
-    "eslint-plugin-perfectionist": "^2.10.0",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.6.4",
-    "typescript-eslint": "^7.9.0"
+    "eslint-plugin-perfectionist": "^2.11.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "typescript-eslint": "^7.15.0"
   },
   "pnpm": {
     "peerDependencyRules": {
