@@ -1,6 +1,6 @@
 # Demo Boilerplate
 
-This repository provides a boilerplate for quickly setting up and demonstrating web demo projects.
+This repository provides a template designed for small to medium-sized projects using ReactJS for the frontend and NodeJS for the backend.
 
 Following technologies and methodologies are used in this boilerplate:
 
