@@ -15,7 +15,6 @@ Following technologies and methodologies are used in this boilerplate:
   - Styles: [Tailwindcss](https://tailwindcss.com/), [PostCSS](https://postcss.org/)
   - State Management: [Nano Stores](https://github.com/nanostores/nanostores)
   - Routing: [TanStack Router](https://tanstack.com/router/latest)
-  - Architectural Methodology: [Feature-Sliced Design](https://feature-sliced.design/)
 - Server
   - Framework: [Express](https://expressjs.com/)
   - Process Management: [pm2](https://pm2.keymetrics.io/)

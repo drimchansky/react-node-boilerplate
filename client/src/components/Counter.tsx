@@ -1,6 +1,6 @@
 import { useStore } from '@nanostores/react'
 
-import { $counter, increaseCounter } from '../model/store'
+import { $counter, increaseCounter } from '../stores/counter'
 
 export const Counter = () => {
   const counterValue = useStore($counter)

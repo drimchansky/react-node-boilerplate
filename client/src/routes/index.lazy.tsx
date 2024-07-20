@@ -1,6 +1,6 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 
-import { Counter } from '../features/counter'
+import { Counter } from '../components/Counter'
 
 export const Route = createLazyFileRoute('/')({
   component: Index
