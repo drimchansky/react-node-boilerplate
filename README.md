@@ -14,7 +14,7 @@ Following technologies and methodologies are used in this boilerplate:
   - UI: [React](https://react.dev/)
   - Styles: [Tailwindcss](https://tailwindcss.com/), [PostCSS](https://postcss.org/)
   - State Management: [Nano Stores](https://github.com/nanostores/nanostores)
-  - Routing: [TanStack Router](https://tanstack.com/router/latest)
+  - Routing: [React Router](https://reactrouter.com/en/main)
 - Server
   - Framework: [Express](https://expressjs.com/)
   - Process Management: [pm2](https://pm2.keymetrics.io/)
