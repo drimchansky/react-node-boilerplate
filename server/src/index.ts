@@ -1,7 +1,9 @@
-import * as bodyParser from 'body-parser'
+import bodyParser from 'body-parser'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import express, { Application } from 'express'
+
+import { getMessage } from './functions/getMessage.mjs'
 
 dotenv.config()
 
@@ -11,7 +13,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 app.get('/', (_req, res) => {
-  res.json({ message: 'It works' })
+  res.json({ message: getMessage() })
 })
 
 app.listen(process.env.PORT, () => {
