@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm run -r dev",
+    "dev": "pnpm run --stream -r dev",
     "build": "pnpm run -r build",
     "start": "pnpm run -r start",
     "env": "pnpm run -r env",
@@ -25,6 +25,7 @@
     "eslint-plugin-perfectionist": "^2.11.0",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
+    "typescript": "^5.5.3",
     "typescript-eslint": "^7.15.0"
   },
   "pnpm": {

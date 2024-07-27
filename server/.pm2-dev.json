@@ -1,5 +1,5 @@
 {
-  "name": "react-node-boilerplate-dev",
+  "name": "process-name-dev",
   "script": "dist/index.js",
   "watch": true,
   "max_restarts": 0,
