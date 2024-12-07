@@ -9,6 +9,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "eslint.workingDirectories": ["./client", "./server"],
-  "eslint.validate": ["typescript", "typescriptreact"],
-  "eslint.experimental.useFlatConfig": true
+  "eslint.validate": ["typescript", "typescriptreact"]
 }
