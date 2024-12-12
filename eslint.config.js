@@ -18,12 +18,19 @@ export default defineFlatConfig([
       perfectionist: eslintPluginPerfectionist
     },
     rules: {
-      ...eslintPluginPerfectionist.configs['recommended-alphabetical'].rules,
       'perfectionist/sort-imports': [
         'error',
         {
+          type: 'alphabetical',
+          order: 'asc',
+          ignoreCase: true,
+          specialCharacters: 'keep',
+          internalPattern: ['^@/.+'],
+          partitionByComment: false,
+          partitionByNewLine: false,
+          newlinesBetween: 'always',
+          maxLineLength: undefined,
           groups: [
-            'side-effect',
             'type',
             ['builtin', 'external'],
             'internal-type',
@@ -32,11 +39,7 @@ export default defineFlatConfig([
             ['parent', 'sibling', 'index'],
             'object',
             'unknown'
-          ],
-          'internal-pattern': ['@/**'],
-          'newlines-between': 'always',
-          order: 'asc',
-          type: 'alphabetical'
+          ]
         }
       ]
     }

@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-define-config": "^2.1.0",
-    "eslint-plugin-perfectionist": "^2.11.0",
+    "eslint-plugin-perfectionist": "^4.2.0",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "typescript": "^5.7.2",
