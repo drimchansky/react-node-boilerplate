@@ -1,8 +1,7 @@
-@import './fonts.css';
+@import './fonts.css' layer(base);
+@import './fonts.utilities.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 @layer base {
   body {
