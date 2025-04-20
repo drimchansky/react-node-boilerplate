@@ -1,5 +1,4 @@
 import { FlatCompat } from '@eslint/eslintrc'
-import { defineFlatConfig } from 'eslint-define-config'
 import eslintPluginPerfectionist from 'eslint-plugin-perfectionist'
 import eslintPluginTypeScript from 'typescript-eslint'
 
@@ -7,7 +6,7 @@ const compat = new FlatCompat({
   baseDirectory: import.meta.dirname
 })
 
-export default defineFlatConfig([
+export default [
   {
     ignores: ['**/dist/', '**/.history/', '**/vite.config.ts']
   },
@@ -59,4 +58,4 @@ export default defineFlatConfig([
       ...eslintPluginTypeScript.configs.recommended.rules
     }
   }
-])
+]
